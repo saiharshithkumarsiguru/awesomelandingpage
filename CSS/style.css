@@ -1,11 +1,16 @@
 html {
 	font-family: "helvetica neue","Arial",sans-serif;
 }
-
+p {
+	color: #5d6660;
+	font-size: 16px;
+	line-height: 24px;
+	ont-family: "helvetica neue","Arial",sans-serif;
+}
 
 
 body {
-	background-color: black;
+	background-color: #ffffff;
 	margin: 0;
 }
 
@@ -18,7 +23,7 @@ header {
 
 #header-container
 {
-	width: 76%;
+	width: 75%;
 	margin: auto;
 }
 
@@ -40,7 +45,7 @@ header {
 	display: inline;
 	font-size: 0.85em;
 	color: #8e8e8e;
-	padding-right: 30px;
+	padding-right: 28px;
 }
 
 .getStartedButton {
@@ -54,4 +59,119 @@ header {
 	font-size: 17px;
 	float:right;
 
+}
+
+
+#top-section-main {
+	background-image: url("../Images/friends.jpg");
+	height: 740px;
+	border:none;
+
+}
+#top-section-content {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+#top-section-content h1 {
+	font-size: 4em;	
+	font-weight: 200;
+	color:#ffffff;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 100px;
+	margin-bottom: 15px;
+}
+
+#top-section-content p {
+	font-size: 1.3em;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+}
+.play-button{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding:50px 0 110px 0;
+}
+ .main-form h6 {
+ 	font-family: sans-serif;
+ 	font-size: 0.9em;
+ 	font-weight: 100;
+ 	color: #ffffff;
+ 	text-align: center;
+ }
+
+ .main-form input {
+ 	margin:0;
+ 	width: 30%;
+ 	height: 40px;
+ 	font-family: sans-serif;
+ 	font-size: 15px;
+ 	padding-left: 15px;
+ 	font-weight: 100;
+ 	border: none;
+ }
+
+ .main-form button {
+ 	width: 30%;
+ 	height: 43px;
+ 	font-family: sans-serif;
+ 	font-size: 15px;
+ 	padding-left: 15px;
+ 	font-weight: 100;
+ 	background-color:#6dc77a;
+ 	color: #ffffff;
+ 	border:none; 
+ }
+
+ #feature-section {
+ 	padding-top: 100px;
+ }
+ .feature-section-title {
+ 	width:73%;
+ 	font-weight: 200;
+ 	line-height: 1.5em;
+ 	margin:auto;
+ }
+ .feature-content {
+ 	margin:auto;
+ 	width: 80%;
+ 	text-align: center;
+ 	padding-top: 200px;
+ }
+
+ .feature-content .col-3 img {
+ 	width: 100%;
+ }
+ .feature-content .col-3 p {
+ 	font-size: 0.9em;
+ 	letter-spacing: 1px;
+ }
+.feature-content col-3 {
+	padding: 10px;
+	width: 30%;
+}
+
+.col-2 {
+	float: left;
+	width: 48%;
+}
+#showcase1-container {
+	padding-top: 60px;
+	background-color: #f6f8fa;
+	width: 100%;
+	clear: both;
+}
+
+.show-case {
+	width: 80%;
+	margin:auto;
+}
+
+.showcase1pic {
+	width:100%;
 }
