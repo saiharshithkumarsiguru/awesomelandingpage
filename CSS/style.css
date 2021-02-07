@@ -1,0 +1,57 @@
+html {
+	font-family: "helvetica neue","Arial",sans-serif;
+}
+
+
+
+body {
+	background-color: black;
+	margin: 0;
+}
+
+
+
+header {
+	height: 80px;
+	background-color: #ffffff;
+}
+
+#header-container
+{
+	width: 76%;
+	margin: auto;
+}
+
+.col-3 {
+	
+	width: 33%;
+	float: left;
+}
+
+.logo{
+	padding-top: 30px;
+}
+
+.menu{
+	margin-top: 32px;
+}
+.menu li {
+	list-style-type: none;
+	display: inline;
+	font-size: 0.85em;
+	color: #8e8e8e;
+	padding-right: 30px;
+}
+
+.getStartedButton {
+	background-color: #6dc77a;
+	border-radius: 28px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10px 26px;
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 17px;
+	float:right;
+
+}
